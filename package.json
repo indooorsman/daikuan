@@ -1,0 +1,17 @@
+{
+  "name": "daikuan-calculator",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --port 4000",
+    "build": "vite build --base '/dk'",
+    "deploy": "npm run build && sh ./deploy.sh"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "vue": "^3.0.0-rc.1"
+  },
+  "devDependencies": {
+    "vite": "^1.0.0-rc.1",
+    "@vue/compiler-sfc": "^3.0.0-rc.1"
+  }
+}

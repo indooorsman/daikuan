@@ -1,0 +1,46 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  padding: 10px;
+}
+
+.grid {
+  margin: 15px;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+.setting fieldset {
+  margin: 5px;
+  border-width: 1px;
+  border-color: #ccc;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+}
+
+.plan-table-wrapper {
+  max-height: 300px;
+  overflow: auto;
+  display: flex;
+}
+.plan-table {
+  border-collapse: collapse;
+  margin: 10px;
+  flex: 1;
+}
+
+.plan-table th, .plan-table td {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+input {
+  padding: 5px 8px;
+}
